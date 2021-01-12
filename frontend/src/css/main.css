@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #14274e;
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh 3vw;
+}
+
+.navbar form {
+  min-width: 18%;
+}
+
+.navbar form .form-control {
+  border-radius: 2rem;
+}
+
+.navbar .btn {
+  background-color: #2a3d66;
+  color: white;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.5rem;
+  border: 1px solid #4c5d7e;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.navbar .btn:hover {
+  background-color: #223255;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.listdemo {
+  padding: 3vh 1vw;
+  margin-bottom: 53.7vh;
+}
+
+.list-group .list-group-item {
+  font-size: 1.6rem;
+}
+
+.content {
+  padding: 3% 4%;
+  border: 1px solid rgb(197, 196, 196);
+}
+
+.content .form-control {
+  font-size: 1.5rem;
+}
+
+.content .btn {
+  /* background-color: #2a3d66; */
+  background-color: rgb(43, 89, 145);
+  padding: 0.5rem 2.2rem;
+  color: white;
+  border-radius: 0.4rem;
+  transition: all 0.2s ease;
+  font-size: 1.6rem;
+}
+
+.content .btn:hover {
+  background-color: rgb(29, 62, 102);
+}
+
+@media (max-width: 340px) {
+  .navbar .btn {
+    border: none;
+    background-color: #223153;
+  }
+}

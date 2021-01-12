@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headSection {
+  background-color: #14274e;
+  padding: 1.6rem 0rem;
+  color: white;
+}
+
+.headSection h4 {
+  font-size: 2.2rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+.headSection h4 {
+  margin-left: 4%;
+}
+
+.mainSection {
+  /* padding: 6.2vh 8vw; */
+  padding: 4.2vh 2vw;
+}
+
+.mainSection .leftSection {
+  padding: 3% 2%;
+}
+
+.leftSection .img-fluid {
+  width: 100%;
+  height: 100%;
+}
+
+.mainSection .rightSection {
+  /* padding: 4rem 11rem; */
+  padding: 5% 12%;
+}
+
+.form-group label {
+  font-size: 1.6rem;
+}
+
+.formSection {
+  border: 0.2rem solid rgb(245, 241, 241);
+  box-shadow: 0.2rem 0.2rem 0.3rem rgb(208, 209, 216);
+  border-radius: 1rem;
+  /* padding: 4.4rem 3.4rem; */
+  padding: 10% 8%;
+}
+
+.formSection h4 {
+  font-weight: 480;
+  font-size: 1.8rem;
+}
+
+.form-control {
+  font-size: 1.5rem;
+  /* font-size: 90%; */
+}
+
+.formSection .btn {
+  background-color: #2a3d66;
+  padding: 0.6rem 2rem;
+  color: white;
+  border-radius: 0.6rem;
+  transition: all 0.3s ease;
+  font-size: 1.4rem;
+  margin-top: 2%;
+}
+
+.formSection .btn:hover {
+  padding: 0.6rem 3rem;
+  background-color: #e1f2fb;
+  color: black;
+}
+
+.formSection .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width: 602px) {
+  .mainSection .leftSection {
+    display: none;
+  }
+}

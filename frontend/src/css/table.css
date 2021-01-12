@@ -1,0 +1,27 @@
+* {
+  font-size: 1.5rem;
+}
+
+td .btn {
+  font-size: 1.4rem;
+  padding: 1.4% 2.5%;
+}
+
+td .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* .table{
+    margin-bottom: 50.7vh;
+} */
+
+@media only screen and (max-width: 564px) {
+  .table .btn {
+    width: 100px;
+    margin-bottom: 2px;
+  }
+  .table thead th {
+    width: 28%;
+  }
+}

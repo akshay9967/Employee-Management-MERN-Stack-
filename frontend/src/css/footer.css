@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: #14274e;
+  padding: 1.4rem 0rem;
+  color: white;
+}
+
+.footer h5 {
+  font-size: 1.8rem;
+}
