@@ -61,7 +61,7 @@ class Home extends Component {
     return (
       <div>
         <div className="headSection">
-          <h4>
+          <h4 className="animate__animated animate__fadeInLeft">
             Employee Management <i class="fa fa-angle-double-down ml-1"></i>
           </h4>
         </div>
@@ -71,7 +71,7 @@ class Home extends Component {
               <img src={registerImg} alt="Img" className="img-fluid"></img>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-6 rightSection">
-              <div className="formSection">
+              <div className="formSection animate__animated animate__fadeInLeft">
                 <h4>Admin</h4>
                 <hr></hr>
                 <form onSubmit={(e) => this.handleSubmit(e)}>
